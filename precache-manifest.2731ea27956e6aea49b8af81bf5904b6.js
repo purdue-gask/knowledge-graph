@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "b52cc0dff6df4a0d3e17",
+    "revision": "25fec8057dc1729d5153",
     "url": "/knowledge-graph/static/css/main.d300200f.chunk.css"
   },
   {
-    "revision": "b52cc0dff6df4a0d3e17",
-    "url": "/knowledge-graph/static/js/main.b52cc0df.chunk.js"
+    "revision": "25fec8057dc1729d5153",
+    "url": "/knowledge-graph/static/js/main.25fec805.chunk.js"
   },
   {
     "revision": "a7f77558f71d96140a77",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/knowledge-graph/static/js/2.6de9c505.chunk.js"
   },
   {
-    "revision": "c769f27d1344ce7c78624f68dcf43867",
+    "revision": "bb0cb58e15efdd4e897151648489a021",
     "url": "/knowledge-graph/index.html"
   }
 ];

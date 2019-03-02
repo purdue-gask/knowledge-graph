@@ -1,13 +1,13 @@
 {
   "main.css": "/knowledge-graph/static/css/main.d300200f.chunk.css",
-  "main.js": "/knowledge-graph/static/js/main.b52cc0df.chunk.js",
-  "main.js.map": "/knowledge-graph/static/js/main.b52cc0df.chunk.js.map",
+  "main.js": "/knowledge-graph/static/js/main.25fec805.chunk.js",
+  "main.js.map": "/knowledge-graph/static/js/main.25fec805.chunk.js.map",
   "runtime~main.js": "/knowledge-graph/static/js/runtime~main.a7f77558.js",
   "runtime~main.js.map": "/knowledge-graph/static/js/runtime~main.a7f77558.js.map",
   "static/js/2.6de9c505.chunk.js": "/knowledge-graph/static/js/2.6de9c505.chunk.js",
   "static/js/2.6de9c505.chunk.js.map": "/knowledge-graph/static/js/2.6de9c505.chunk.js.map",
   "index.html": "/knowledge-graph/index.html",
-  "precache-manifest.50777c6065c412e2e253342483168f52.js": "/knowledge-graph/precache-manifest.50777c6065c412e2e253342483168f52.js",
+  "precache-manifest.2731ea27956e6aea49b8af81bf5904b6.js": "/knowledge-graph/precache-manifest.2731ea27956e6aea49b8af81bf5904b6.js",
   "service-worker.js": "/knowledge-graph/service-worker.js",
   "static/css/main.d300200f.chunk.css.map": "/knowledge-graph/static/css/main.d300200f.chunk.css.map"
 }
