@@ -18,7 +18,7 @@ const styles = {
   menuButton: {
     marginLeft: -12,
     marginRight: 20,
-  },
+  }
 };
 
 function ButtonAppBar(props) {
@@ -36,7 +36,7 @@ function ButtonAppBar(props) {
           <Button color="inherit">Login</Button>
         </Toolbar>
       </AppBar>
-    </div>
+		</div>
   );
 }
 
