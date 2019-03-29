@@ -10,9 +10,13 @@
     "cerebral": "^5.1.0",
     "gh-pages": "^2.0.1",
     "leaflet": "^1.4.0",
+    "neo4j": "^2.0.0-RC2",
+    "neo4j-driver": "^1.7.2",
+    "plotly": "^1.0.6",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-leaflet": "^2.2.1",
+    "react-plotly": "^1.0.0",
     "react-scripts": "2.1.5"
   },
   "scripts": {
