@@ -7,6 +7,7 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
+import MenuList from "./MenuList";
 
 const styles = {
   root: {
@@ -28,12 +29,12 @@ function ButtonAppBar(props) {
       <AppBar position="static">
         <Toolbar>
           <IconButton className={classes.menuButton} color="inherit" aria-label="Menu">
-            <MenuIcon />
           </IconButton>
           <Typography variant="h6" color="inherit" className={classes.grow}>
             Knowledge Graph App
           </Typography>
           <Button color="inherit">Login</Button>
+		      <MenuList />
         </Toolbar>
       </AppBar>
 		</div>

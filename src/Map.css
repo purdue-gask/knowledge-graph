@@ -1,0 +1,8 @@
+:global .leaflet-container {
+  display: flex;
+	height: -webkit-fill-available;
+}
+:global .leaftlet-pane {
+	position: absolute;
+	flex-grow: 1;
+}
