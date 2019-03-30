@@ -1,13 +1,13 @@
 {
   "main.css": "/knowledge-graph/static/css/main.d300200f.chunk.css",
-  "main.js": "/knowledge-graph/static/js/main.25fec805.chunk.js",
-  "main.js.map": "/knowledge-graph/static/js/main.25fec805.chunk.js.map",
+  "main.js": "/knowledge-graph/static/js/main.b0765322.chunk.js",
+  "main.js.map": "/knowledge-graph/static/js/main.b0765322.chunk.js.map",
   "runtime~main.js": "/knowledge-graph/static/js/runtime~main.a7f77558.js",
   "runtime~main.js.map": "/knowledge-graph/static/js/runtime~main.a7f77558.js.map",
-  "static/js/2.6de9c505.chunk.js": "/knowledge-graph/static/js/2.6de9c505.chunk.js",
-  "static/js/2.6de9c505.chunk.js.map": "/knowledge-graph/static/js/2.6de9c505.chunk.js.map",
+  "static/js/2.a90e9dad.chunk.js": "/knowledge-graph/static/js/2.a90e9dad.chunk.js",
+  "static/js/2.a90e9dad.chunk.js.map": "/knowledge-graph/static/js/2.a90e9dad.chunk.js.map",
   "index.html": "/knowledge-graph/index.html",
-  "precache-manifest.2731ea27956e6aea49b8af81bf5904b6.js": "/knowledge-graph/precache-manifest.2731ea27956e6aea49b8af81bf5904b6.js",
+  "precache-manifest.e288e9334fb1c4b4d95741f468e573a6.js": "/knowledge-graph/precache-manifest.e288e9334fb1c4b4d95741f468e573a6.js",
   "service-worker.js": "/knowledge-graph/service-worker.js",
   "static/css/main.d300200f.chunk.css.map": "/knowledge-graph/static/css/main.d300200f.chunk.css.map"
 }
