@@ -1,5 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { state, signal } from "cerebral/tags";
+import { connect } from "@cerebral/react";
 import { withStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -22,8 +24,9 @@ const styles = {
   }
 };
 
-function ButtonAppBar(props) {
-  const { classes } = props;
+class Menu extends React.Component {
+	render(){
+		 const { classes } = this.props;
   return (
     <div className={classes.root}>
       <AppBar position="static">
@@ -33,16 +36,33 @@ function ButtonAppBar(props) {
           <Typography variant="h6" color="inherit" className={classes.grow}>
             Knowledge Graph App
           </Typography>
-          <Button color="inherit">Login</Button>
-		      <MenuList />
+         <Button
+            key={2}
+            color="inherit"
+            aria-label="open drawer"
+            onClick={() => this.props.connectionsClicked({})}
+            className={classes.menuButton}
+            disabled={false}
+          >
+            Connect
+          </Button>
+        <MenuList />
         </Toolbar>
       </AppBar>
-		</div>
+    </div>
   );
+
+	}
 }
 
-ButtonAppBar.propTypes = {
+Menu.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(ButtonAppBar);
+export default connect(
+  {
+    connectionsClicked:         signal`Menu.connectionsClicked`,
+    handleMenuListOpen:         signal`MenuList.handleMenuListOpen`,
+  },
+  withStyles(styles, { withTheme: true })(Menu)
+);
