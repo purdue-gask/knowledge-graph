@@ -1,6 +1,6 @@
 {
   "name": "knowledge-graph",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "private": true,
   "homepage": "https://purdue-gask.github.io/knowledge-graph",
   "dependencies": {
@@ -11,6 +11,7 @@
     "cerebral": "^5.1.0",
     "gh-pages": "^2.0.1",
     "leaflet": "^1.4.0",
+    "mobile-detect": "^1.4.3",
     "neo4j": "^2.0.0-RC2",
     "neo4j-driver": "^1.7.2",
     "plotly": "^1.0.6",
