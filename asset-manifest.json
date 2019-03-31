@@ -1,13 +1,13 @@
 {
   "main.css": "/knowledge-graph/static/css/main.d300200f.chunk.css",
-  "main.js": "/knowledge-graph/static/js/main.13729b51.chunk.js",
-  "main.js.map": "/knowledge-graph/static/js/main.13729b51.chunk.js.map",
+  "main.js": "/knowledge-graph/static/js/main.9e634f41.chunk.js",
+  "main.js.map": "/knowledge-graph/static/js/main.9e634f41.chunk.js.map",
   "runtime~main.js": "/knowledge-graph/static/js/runtime~main.a7f77558.js",
   "runtime~main.js.map": "/knowledge-graph/static/js/runtime~main.a7f77558.js.map",
-  "static/js/2.0fbe5dab.chunk.js": "/knowledge-graph/static/js/2.0fbe5dab.chunk.js",
-  "static/js/2.0fbe5dab.chunk.js.map": "/knowledge-graph/static/js/2.0fbe5dab.chunk.js.map",
+  "static/js/2.bb2af743.chunk.js": "/knowledge-graph/static/js/2.bb2af743.chunk.js",
+  "static/js/2.bb2af743.chunk.js.map": "/knowledge-graph/static/js/2.bb2af743.chunk.js.map",
   "index.html": "/knowledge-graph/index.html",
-  "precache-manifest.a6c8c3f28335efc2e2973cbaf5e66d6d.js": "/knowledge-graph/precache-manifest.a6c8c3f28335efc2e2973cbaf5e66d6d.js",
+  "precache-manifest.037a9c6e8c41f09dae8367ee6c409803.js": "/knowledge-graph/precache-manifest.037a9c6e8c41f09dae8367ee6c409803.js",
   "service-worker.js": "/knowledge-graph/service-worker.js",
   "static/css/main.d300200f.chunk.css.map": "/knowledge-graph/static/css/main.d300200f.chunk.css.map"
 }
