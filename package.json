@@ -1,6 +1,6 @@
 {
   "name": "knowledge-graph",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "private": true,
   "homepage": "https://purdue-gask.github.io/knowledge-graph",
   "dependencies": {
@@ -8,6 +8,7 @@
     "@material-ui/core": "^3.9.2",
     "@material-ui/icons": "^3.0.2",
     "@oada/cerebral-module": "^2.1.4",
+    "@oada/cerebral-provider": "^2.0.9",
     "cerebral": "^5.1.0",
     "gh-pages": "^2.0.1",
     "leaflet": "^1.4.0",

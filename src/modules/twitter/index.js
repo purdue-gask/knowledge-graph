@@ -8,8 +8,10 @@ export default Module({
     connection_id: "none",
   },
 
-  signals: {
-    handleWatchUpdate: handleWatchUpdate,
-    resetDemo        : resetDemo
-  }
+  signals,
+	
+	//: {
+  //  handleWatchUpdate: handleWatchUpdate,
+  //  resetDemo        : resetDemo
+  //}
 })

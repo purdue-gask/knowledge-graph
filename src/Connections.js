@@ -13,13 +13,11 @@ import { state, signal } from "cerebral/tags";
 export default connect(
   {
     oadaDomainText:           state`Connections.oada_domain_text`,
-    oadaFieldsDomainText:     state`Connections.oada_fields_domain_text`,
     show:                     state`Connections.show`,
 
     submitClicked:            signal`Connections.submitClicked`,
     cancelClicked:            signal`Connections.cancelClicked`,
     oadaDomainChanged:        signal`Connections.oadaDomainChanged`,
-    oadaFieldsDomainChanged:  signal`Connections.oadaFieldsDomainChanged`
   },
 
   class Connections extends React.Component {

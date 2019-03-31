@@ -96,18 +96,16 @@ export const fetchNoWatch = sequence("twitter.fetchNoWatch", [
  * @type {Primitive}
  */
 export const init = sequence("twitter.init", [
-  //getConnectionsFromStorage,
-  when(state`Connections.connection_id`),
-  {
-    true: [oada.connect],
-    false: [
-      oada.connect,
-      set(state`twitter.connection_id`, props`connection_id`),
-      set(state`Connections.connection_id`, props`connection_id`),
-      set(state`connections.twitter.connection_id`, props`connection_id`)
-    ]
+	() => {
+    console.log("--> twitter.init");
   },
-  //
+  oada.connect,
+	() => {
+    console.log("--> twitter.init 2");
+  },
+  set(state`twitter.connection_id`, props`connection_id`),
+  set(state`Connections.connection_id`, props`connection_id`),
+  set(state`connections.twitter.connection_id`, props`connection_id`),
   set(state`twitter.loading`, true),
   fetch,
   set(state`twitter.loading`, false),

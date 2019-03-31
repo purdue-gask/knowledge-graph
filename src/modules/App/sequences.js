@@ -29,7 +29,10 @@ const _OPTIONS =  {
 };
 
 export const init = sequence("App.init", [
-  setMobile,
+  () => {
+    console.log("--> app.init");
+  },
+	setMobile,
   //getConnectionsFromStorage,
   when(state`Connections.connection_id`),
   {
@@ -42,7 +45,7 @@ export const init = sequence("App.init", [
       }),
       twitter.init,
     ]),
-    false: []
+    false: [set(state`Connections.show`, true)]
   }
 ]);
 
