@@ -1,7 +1,7 @@
 # Knowledge Graph
 Situational Knowledge App.
 
-Incoming Feeds from Apache Kafka are visaulized utilizing Neo4j, Postgres, React, Cerebral, and Javascript.
+Incoming Feeds from Apache Kafka are visualized utilizing Neo4j, Postgres, React, Cerebral, and Javascript.
 
 ## Building blocks:
 
